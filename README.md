@@ -12,6 +12,6 @@ Untuk menginstall semua depedensi
 
 Untuk menjalankan App pada localhost
 
-### `yarn build`
+### `npm build`
 
 Untuk membuild project ke app mode production

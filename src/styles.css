@@ -1,0 +1,230 @@
+.header{
+    height: 350px;
+    background-image:
+    linear-gradient(to top,rgba(255,255,255, 0.9), rgba(0, 181, 204, 1));
+    width: 100%;
+    background-size: cover;
+    /* padding: 20px 0 0 20px; */
+}
+
+.header2:after{
+    content:'';
+    position: absolute;
+    left:0; top:0;
+    width:100%; height:350px;
+    display:inline-block;
+    background: -webkit-linear-gradient(bottom,rgba(255,255,255, 1),rgba(0, 0, 0, 0));
+}
+
+.img-gradient:after {
+    content:'';
+    position:fixed;
+    left:0; top:0;
+    width:100%; height:340px;
+    display:inline-block;
+    background: -webkit-linear-gradient(bottom,rgba(255,255,255, 0.9),rgba(0, 0, 0, 0));
+  }
+
+
+
+/* .header p .header2{
+    text-align: left;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Arial Black", Gadget, sans-serif;
+} */
+
+.tulisanHeader{
+    text-align: left;
+    align-items: center;
+    font-size: 50px;
+    z-index: 1;
+    color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    z-index: 1;
+    padding: 200px 0px 0px 50px;
+    position: absolute;
+    left:0; top:0;
+}
+
+.gbrParseContainer{
+    overflow: hidden;
+    height: 350px;
+    max-height: 350px;
+    position: relative;
+}
+
+.gbrParse{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -60%;
+}
+
+.main{
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    left:0; top:0;
+}
+
+.sidebar{
+    width: 160px;
+    background-color: white;
+}
+
+.content{
+    text-align:center;
+    background-color: white;
+    height: 800px;
+}
+
+.sidepaneldalem  {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 25px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 400px;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .sidepanelluar{
+    width: 250px;
+    position: fixed;
+    height: 500px;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-radius: 25px;
+    padding-top: 60px;
+    margin-top: 350px;
+  }
+
+  .sidepanelluar::-webkit-scrollbar{
+      display:none;
+  }
+
+  .show_bg_2 {
+    background-image:
+    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+    width: 80%;
+    height: 50px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+.dsa{
+    background-color: white;
+}
+
+.isimenu{
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* .isimenu:focus{
+    color: #2196F3;
+} */
+
+.isimenu:hover{
+    color: #2196F3;
+}
+
+.isibracket{
+    border-radius: 8px;
+    color: white;
+    background-color: #2196F3;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.blog{
+    margin-left: 38%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 12px;
+}
+
+.toogle {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: #2CA1FD;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.toogleInside{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-left: 45%;
+    background-color: #2CA1FD;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+
+.avatar{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 25%;
+}
+
+.avatar1{
+    margin-left: 10px;
+}
+
+.globalkonten{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.isikonten{
+    align-items: center;
+    text-align: left;
+    padding: 0 25% 0 25%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #DCDCDC; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2196F3; 
+  }
+
+  
